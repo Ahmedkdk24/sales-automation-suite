@@ -2,9 +2,6 @@
 
 **A Python-powered automation pipeline that cleans, merges, and summarizes multi-branch sales data — automatically generating weekly reports and sending them via email.**
 
-This project demonstrates practical **data engineering and automation skills** often required in business analytics and data science roles.  
-It reflects a real-world workflow for companies managing sales data from multiple branches or sources.
-
 ---
 
 ## 🚀 Key Features
@@ -179,26 +176,11 @@ And load it with `python-dotenv`.
 
 ---
 
-## 🎥 Demo Video
-
-> ▶️ [Watch Demo](src/assets/demo.mp4)
-
----
-
-## 💡 Future Enhancements
-
-* 🔹 Add Streamlit dashboard for visual uploads and downloads
-* 🔹 Integrate Google Sheets or Drive API for cloud storage
-* 🔹 Auto-refresh linked Power BI dashboards via API
-* 🔹 Add logging and error tracking for production use
-
----
-
 ## 👨‍💻 Author
 
-**Ahmed I** — Data Scientist | Automation Builder | AI Enthusiast
+**Ahmed Hamza** — Data Scientist | Automation Builder | AI Enthusiast
 📍 Based in KSA 🇸🇦
-📫 [LinkedIn](https://linkedin.com/in/YOUR_LINKEDIN) • [GitHub](https://github.com/YOUR_USERNAME)
+📫 [LinkedIn](https://www.linkedin.com/in/ahmed-hamza-74313b13a/) • [GitHub](https://github.com/Ahmedkdk24)
 
 ---
 
