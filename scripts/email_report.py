@@ -1,12 +1,15 @@
 # scripts/email_report.py
-import smtplib
+from dotenv import load_dotenv
 import os
+import smtplib
 from email.message import EmailMessage
 
-def send_email(report_path, recipient="your_email@example.com"):
-    """Send the generated report via email."""
-    sender = "your_email@example.com"
-    password = "YOUR_APP_PASSWORD"  # Use App Password (never plain password)
+load_dotenv()
+
+def send_email(report_path):
+    sender = os.getenv("EMAIL_USER")
+    password = os.getenv("EMAIL_PASS")
+    recipient = os.getenv("EMAIL_RECIPIENT")
 
     msg = EmailMessage()
     msg["Subject"] = "Weekly Sales Report"
@@ -24,6 +27,3 @@ def send_email(report_path, recipient="your_email@example.com"):
         print("✅ Email sent successfully!")
     except Exception as e:
         print(f"❌ Failed to send email: {e}")
-
-if __name__ == "__main__":
-    send_email("data/reports/weekly_summary.xlsx")

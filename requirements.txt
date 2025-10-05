@@ -1,0 +1,21 @@
+# ==============================
+# Sales Data Automation Suite
+# Requirements File
+# ==============================
+
+# --- Core Dependencies ---
+pandas==2.2.3
+matplotlib==3.9.2
+openpyxl==3.1.5      # for Excel export
+
+# --- Scheduling & Automation ---
+schedule==1.2.1
+
+# --- Email & Environment Handling ---
+python-dotenv==1.0.1
+
+# --- Optional UI / Future Expansion ---
+streamlit==1.39.0     # Optional dashboard interface
+
+# --- Utilities ---
+requests==2.32.3      # future API integrations (Power BI, Google Drive)
